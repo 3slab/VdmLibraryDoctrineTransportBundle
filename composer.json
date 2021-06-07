@@ -1,0 +1,41 @@
+{
+    "name": "3slab/vdm-library-doctrine-transport-bundle",
+    "description": "Vdm Doctrine Transport",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jonathan Bouzekri",
+            "email": "jonathan.bouzekri@suez.com"
+        },
+        {
+            "name": "Julian Marié",
+            "email": "julian.marie@free.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vdm\\Bundle\\LibraryDoctrineTransportBundle\\": ""
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "3slab/vdm-library-bundle": "^3.0"
+    },
+    "require-dev": {
+        "ext-xml": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "phpunit/phpunit": "^9",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    },
+    "suggest": {
+        "symfony/orm-pack": "if you wen to persist your entities using ORM entity manager",
+        "doctrine/mongodb-odm-bundle": "if you wen to persist your entities using ODM document manager"
+    }
+}
