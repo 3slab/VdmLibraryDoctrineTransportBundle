@@ -1,5 +1,7 @@
 # Vdm Library Doctrine Transport
 
+[![Build Status](https://travis-ci.com/3slab/VdmLibraryDoctrineTransportBundle.svg?branch=3.x-dev)](https://travis-ci.com/3slab/VdmLibraryDoctrineTransportBundle)
+
 ## Installation
 
 ```bash
